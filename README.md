@@ -1,6 +1,14 @@
-# newspedia_flutter
+# Testing Flutter Playground
 
-Newspedia
+I'm trying to learn flutter.
+
+## What to do
+1. Playing with scalable structure
+2. Navigation
+3. Tab Navigation
+4. Auth (Login, etc)
+5. Consume news list API
+6. Reusable Widget
 
 ## Getting Started
 
