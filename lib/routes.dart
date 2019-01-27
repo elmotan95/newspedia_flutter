@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'screens/home/index.dart';
+import 'screens/main/index.dart';
 
 class Routes {
   final routes = <String, WidgetBuilder>{
-    '/Home': (BuildContext context) => new Home()
+    '/Main': (BuildContext context) => new Main()
   };
 
   Routes () {
     runApp(new MaterialApp(
       title: 'Newspedia Flutter',
       routes: routes,
-      home: new Home(),
+      home: new Main(),
     ));
   }
 }

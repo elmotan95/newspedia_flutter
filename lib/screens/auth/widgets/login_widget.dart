@@ -7,7 +7,6 @@ class LoginWidget extends StatefulWidget {
     return _LoginState();
   }
 
-
 }
 
 class _LoginState extends State<LoginWidget> {
@@ -37,7 +36,7 @@ class _LoginState extends State<LoginWidget> {
                 labelText: 'Username',
               ),
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 13,
                 color: Colors.blue
               ),
               textInputAction: TextInputAction.next,
@@ -57,7 +56,7 @@ class _LoginState extends State<LoginWidget> {
             child: TextFormField(
               focusNode: passwordInput,
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 13,
                 color: Colors.blue
               ),
               obscureText: true,
